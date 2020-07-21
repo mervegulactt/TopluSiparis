@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "32486477250",
+    "firebase_url": "https://ogrenci-64d55.firebaseio.com",
+    "project_id": "ogrenci-64d55",
+    "storage_bucket": "ogrenci-64d55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32486477250:android:8847cffca694af90",
+        "android_client_info": {
+          "package_name": "com.example.deneme1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32486477250-dlcrb9ni0lvqbgi1jq8k4h0q0tgv61t1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deneme1",
+            "certificate_hash": "f3e33d82068c4b5d687019e237e99a919aee3dce"
+          }
+        },
+        {
+          "client_id": "32486477250-sa06kkmntobklbtjgd65hjagd584i0sj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcEZha61EO37S4J2ukdYlRHVGB3Yobrvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32486477250-sa06kkmntobklbtjgd65hjagd584i0sj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

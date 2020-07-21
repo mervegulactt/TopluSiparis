@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/kisiProfil"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:hint="Profilim"
+            android:textAlignment="center"
+            android:textSize="36dp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/ProfilMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:shadowRadius="0"
+            android:text="Mail"
+            android:textAlignment="gravity"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/guncelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="#68CCFD"
+            android:hint="Profili Güncelle"
+            android:textAlignment="center"
+            android:onClick="updateDescription"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btn_cikis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:background="#68CCFD"
+            android:hint="Çıkış"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+</RelativeLayout>

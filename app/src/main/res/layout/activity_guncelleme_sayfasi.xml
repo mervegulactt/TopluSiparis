@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Profil Bilgi Güncelleme"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/guncellemeMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@color/colorText" />
+
+        <EditText
+            android:id="@+id/guncellemeSifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="numberPassword"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <EditText
+            android:id="@+id/guncellemeTelNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="GSM"
+            android:inputType="phone"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <Spinner
+            android:id="@+id/guncellemeSehir"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp">
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/guncellemeYurt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp">
+
+        </Spinner>
+
+        <EditText
+            android:id="@+id/guncellemeBlok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Blok"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <EditText
+            android:id="@+id/guncellemeKat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Kat"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <EditText
+            android:id="@+id/guncellemeOda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Oda Numarası"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_guncelleme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Güncelle" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

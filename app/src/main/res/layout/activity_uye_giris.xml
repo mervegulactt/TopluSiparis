@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/pencil_location" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siparişler"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/loginMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#000000"
+            android:textCursorDrawable="@color/colorText" />
+
+
+        <EditText
+            android:id="@+id/loginSifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:cursorVisible="true"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:textColorHint="#000000"
+            android:textCursorDrawable="@color/colorText"
+            android:visibility="visible" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorText"
+            android:checked="false"
+            android:contextClickable="true"
+            android:text="Beni Hatırla"
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/uyeGiris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#68CCFD"
+            android:imeOptions="actionSend"
+            android:keyboardNavigationCluster="false"
+            android:text="Giriş Yap"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/kayitOl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Kayıt Ol!"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+</ScrollView>

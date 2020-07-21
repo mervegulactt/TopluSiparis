@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/kayitLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/kyt_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kayıt Formu"
+            android:textAlignment="center"
+            android:textColorHighlight="#F4511E"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/kayit_e_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="E Mail"
+            android:inputType="textEmailAddress"
+            android:cursorVisible="true" />
+
+        <EditText
+            android:id="@+id/kayit_kul_sifr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:visibility="visible"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <EditText
+            android:id="@+id/tel_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="GSM"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+        </Spinner>
+
+        <EditText
+            android:id="@+id/blok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Blok"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <EditText
+            android:id="@+id/kat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Kat"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <EditText
+            android:id="@+id/oda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Oda Numarası"
+            android:inputType="textPersonName"
+            android:textCursorDrawable="@color/colorText"
+            android:cursorVisible="true"/>
+
+        <Button
+            android:id="@+id/kayit_ol1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#68CCFD"
+            android:shadowColor="#007C4747"
+            android:text="Kayıt Ol"
+            android:textColorHighlight="#00000000"
+            android:textColorHint="#00000000" />
+    </LinearLayout>
+</ScrollView>

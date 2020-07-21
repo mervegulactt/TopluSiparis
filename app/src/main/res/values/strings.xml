@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Siparişler</string>
+
+    <string-array name="Şehir">
+        <item>Şehir Seçiniz</item>
+        <item>İstanbul</item>
+        <item>Çanakkale</item>
+        <item>Kırklareli</item>
+    </string-array>
+    <string-array name="yurt">
+        <item>Yurt Seçiniz</item>
+        <item> kyk</item>
+        <item>Çanakkale kyk</item>
+        <item>İstanbul Kyk</item>
+    </string-array>
+</resources>
